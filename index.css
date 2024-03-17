@@ -1,85 +1,107 @@
-body{
+body {
     padding: 0;
     margin: 0;
 }
-.green-background{
+
+.green-background {
     background-color: #07796B;
 }
-.green-background-2{
+
+.green-background-2 {
     background-color: #088374;
 }
-.width-100p{
+
+.width-100p {
     width: 100%;
 }
-.inner-div{
+
+.inner-div {
     width: 80%;
     margin: auto;
 }
-.color-white{
+
+.color-white {
     color: white;
 }
-.color-red{
+
+.color-red {
     color: #F96F5A;
 }
-.color-light-green{
+
+.color-light-green {
     color: #94B58E;
 }
-.pb-50px{
+
+.pb-50px {
     padding-bottom: 250px;
 }
-.gap-2{
+
+.gap-2 {
     gap: 2px;
 }
-.gap-10{
+
+.gap-10 {
     gap: 10px;
 }
-.gap-15{
+
+.gap-15 {
     gap: 15px;
 }
-.gap-20{
+
+.gap-20 {
     gap: 20px;
 }
-.gap-25{
+
+.gap-25 {
     gap: 25px;
 }
-.top-icons{
+
+.top-icons {
     font-size: 16px !important;
 }
-nav > span{
+
+nav>span {
     font-size: 30px;
     letter-spacing: 2px;
     font-weight: bold;
 }
-nav > ul{
+
+nav>ul {
     display: flex;
     gap: 6px;
     align-items: center;
     margin: unset !important;
 }
-nav > ul > li{
+
+nav>ul>li {
     list-style: none;
     color: #9ACCC7;
     padding: 6px 6px;
 }
-nav > ul > li:hover{
+
+nav>ul>li:hover {
     color: white;
     cursor: pointer;
     border-bottom: solid 2px #F85A40;
 }
-.main-slider-div{
+
+.main-slider-div {
     display: grid;
     grid-template-columns: 50% 50%;
 }
-.main-div-heading{
+
+.main-div-heading {
     font-size: 46px;
     font-weight: bold;
     color: white;
 }
-.main-div-sub-heading{
+
+.main-div-sub-heading {
     color: #9ACCC7;
     margin-bottom: 15px;
 }
-.get-started-button{
+
+.get-started-button {
     border-radius: 50px;
     background-color: #1E8F82;
     color: white;
@@ -90,12 +112,14 @@ nav > ul > li:hover{
     box-shadow: 0 0 1px 0 black;
     margin-right: 15px;
 }
-.watch-video-text{
+
+.watch-video-text {
     color: white;
     font-size: 20px;
     font-weight: 400;
 }
-.myCard{
+
+.myCard {
     background-color: #0A8D7D;
     height: 200px;
     width: 250px;
@@ -105,12 +129,14 @@ nav > ul > li:hover{
     align-items: center;
     gap: 18px;
 }
-.myCard > span{
+
+.myCard>span {
     font-weight: bold;
     font-size: 32px;
     color: white;
 }
-.cards-outer-div{
+
+.cards-outer-div {
     position: absolute;
     top: 550px;
     width: 100%;
@@ -119,88 +145,98 @@ nav > ul > li:hover{
     justify-content: space-between;
 }
 
-.about-us-class{
+.about-us-class {}
 
-}
-.h2-css{
+.h2-css {
     display: flex;
     justify-content: center;
 }
 
-.main-div-seperate2{
+.main-div-seperate2 {
     display: flex;
     flex-direction: column;
     gap: 150px;
 }
 
-.lower-div-main{
+.lower-div-main {
     justify-content: center;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.lower-h2-span{
+
+.lower-h2-span {
     color: gray;
     justify-content: center;
     display: flex;
 
 }
 
-.image-text-h2{
-    font-weight:600 ;
+.image-text-h2 {
+    font-weight: 600;
 }
-.lower-about-us{
-   display: flex;
-   flex-direction: row;
+
+.lower-about-us {
+    display: flex;
+    flex-direction: row;
 
 }
-.lower-about-us-1{
+
+.lower-about-us-1 {
     /* width: 50%; */
 }
-.lower-div-main-inner{
+
+.lower-div-main-inner {
     gap: 30px;
     width: 80%;
     display: flex;
     flex-direction: column;
 }
 
-.lower-div-main{
-}
-.lower-about-us-span-text{
+.lower-div-main {}
+
+.lower-about-us-span-text {
     font-style: italic;
     font-weight: 400;
 }
-.lower-about-us-1{
+
+.lower-about-us-1 {
     gap: 10px;
     display: flex;
     flex-direction: column;
 
 }
-.li-css-text{
+
+.li-css-text {
     gap: 10px;
     display: flex;
     align-items: center;
 
 }
-.li-css-text-2{
+
+.li-css-text-2 {
     gap: 10px;
     display: flex;
     /* align-items: center; */
 }
-.card-body-new{
+
+.card-body-new {
     /* gap: 10px; */
-        gap: 10px;
+    gap: 10px;
     display: flex;
     flex-direction: column;
 
 }
-.color-green{
+
+.color-green {
     color: green;
 }
-.mb-75{
-margin-bottom: 0.75rem;
+
+.mb-75 {
+    margin-bottom: 0.75rem;
 }
-.pic-card{
+
+.pic-card {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -213,26 +249,118 @@ margin-bottom: 0.75rem;
 }
 
 .circle-icon {
-    width: 30px; /* Adjust size as needed */
-    height: 30px; /* Adjust size as needed */
+    width: 30px;
+    /* Adjust size as needed */
+    height: 30px;
+    /* Adjust size as needed */
     border-radius: 50%;
     border: 1px solid black;
     /* background-color: #333;  */
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 10px; /* Adjust spacing between icons */
+    margin-right: 10px;
+    /* Adjust spacing between icons */
     cursor: pointer;
 }
 
 .circle-icon i {
     /* color: #fff; */
-    font-size: 20px; /* Adjust icon size as needed */
+    font-size: 20px;
+    /* Adjust icon size as needed */
 }
-.card-img-top{
+
+.card-img-top {
     padding: 15px;
     border-radius: 1.25rem !important;
 }
+
 .rounded {
     border-radius: 1.25rem !important;
+}
+
+.location-icon-container {
+    display: flex;
+    align-items: center;
+}
+
+.icon-location {
+    /* width: 30px;  */
+    /* height: 30px; */
+    padding: 6px;
+    border-radius: 50%;
+    border: 1px solid black;
+    /* background-color: #333;  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    /* Adjust spacing between icons */
+    cursor: pointer;
+
+}
+
+.icon-location i {
+    /* color: #000;  */
+    font-size: 20px;
+    /* Adjust size of the icon */
+}
+
+.location-icon-container {
+    width: 100%;
+}
+
+.location-icon-container-css {
+    display: flex !important;
+    background-color: #1e9f90 !important;
+    margin: 1rem;
+    border-radius: 0.5rem !important;
+    color: white !important;
+}
+
+.location-icon-container-css-ul {
+    background-color: #1a897d !important;
+        width:  350px;
+}
+
+.fa-map-marker-alt {
+    display: flex !important;
+    align-items: center !important;
+}
+
+.fa-envelope {
+    display: flex !important;
+    align-items: center !important;
+}
+
+.fa-phone-alt {
+    display: flex !important;
+    align-items: center !important;
+}
+
+.fa-clock {
+    display: flex !important;
+    align-items: center !important;
+}
+.main-div-css{
+    display: flex ;
+    gap: 15px;
+}
+#exampleFormControlInput1{
+    width: 48% !important;
+    /* margin-right: 10px; */
+}
+#exampleFormControlInput2{
+    width: 48% !important;
+}
+.cmd8{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.btn-primary-k{
+    background-color: #1e9f90 !important;
+    padding: 12px !important;
+    width: 30%;
+    border-radius: 20px !important;
 }
